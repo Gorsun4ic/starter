@@ -5,3 +5,6 @@ import * as componentsFunctions from './files/functions.js'
 
 // Accordions
 // componentsFunctions.accordions()
+
+// Slider swiper
+// import "./files/slider.js"
