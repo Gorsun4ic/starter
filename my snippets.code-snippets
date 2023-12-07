@@ -1,0 +1,771 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Tabs": {
+		"scope": "html",
+		"prefix": "tabs",
+		"body": [
+			"<div class=\"tabs\">\n\t<div class=\"tabs__buttons\">\n\t\t<button class=\"tabs__button active\">First</button>\n\t\t<button class=\"tabs__button\">Second</button>\n\t\t<button class=\"tabs__button\">Third</button>\n\t\t<button class=\"tabs__button\">Fourth</button>\n\t</div>\n\t<div class=\"tabs__contents\">\n\t\t<div class=\"tabs__content active\">\n\t\t\t<h2>First</h2>\n\t\t\t<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus doloribus ducimus quae reprehenderit distinctio facere quod magnam repellat? Neque, similique nulla sed eveniet ab architecto consequatur nisi necessitatibus excepturi error.</p>\n\t\t</div>\n\t\t<div class=\"tabs__content\">\n\t\t\t<h2>Second</h2>\n\t\t\t<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio, sit magni quo, aperiam inventore natus facere eos optio tempore ullam rem necessitatibus ea quidem nisi earum numquam? Ex, rem?</p>\n\t\t</div>\n\t\t<div class=\"tabs__content\">\n\t\t\t<h2>Third</h2>\n\t\t\t<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis veniam vitae praesentium. Officia inventore distinctio provident. Excepturi, molestias velit expedita eveniet ducimus id asperiores blanditiis, fugiat ut voluptatum, quibusdam nihil!</p>\n\t\t</div>\n\t\t<div class=\"tabs__content\">\n\t\t\t<h2>Fourth</h2>\n\t\t\t<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit distinctio et nobis est minus officia ducimus corrupti. Odio voluptate nulla corporis adipisci aut non quas accusamus, consectetur possimus reprehenderit minus!</p>\n\t\t</div>\n\t</div>\n</div>"
+		],
+		"description": "Add basic tabs html code"
+	},
+	"Accordion": {
+		"scome": "html",
+		"prefix": "accordion",
+		"body": [
+			"<div class=\"accordion\">\n\t<div class=\"accordion__item\">\n\t\t<div class=\"accordion__label\">\n\t\t\t<p class=\"accordion__title\">First</p>\n\t\t\t<p class=\"accordion__button\">+</p>\n\t\t</div>\n\t\t<div class=\"accordion__content\">\n\t\t\t<p>\n\t\t\t\tLorem ipsum dolor, sit amet consectetur adipisicing elit. Velit\n\t\t\t\tobcaecati reiciendis natus et, quis esse, consequuntur sit\n\t\t\t\trepudiandae veniam ad dolor, perferendis fugit nemo iure. Id facere\n\t\t\t\tdistinctio sapiente nisi.\n\t\t\t</p>\n\t\t</div>\n\t</div>\n\t<div class=\"accordion__item\">\n\t\t<div class=\"accordion__label\">\n\t\t\t<p class=\"accordion__title\">Second</p>\n\t\t\t<p class=\"accordion__button\">+</p>\n\t\t</div>\n\t\t<div class=\"accordion__content\">\n\t\t\t<p>\n\t\t\t\tLorem ipsum dolor, sit amet consectetur adipisicing elit. Velit\n\t\t\t\tobcaecati reiciendis natus et, quis esse, consequuntur sit\n\t\t\t\trepudiandae veniam ad dolor, perferendis fugit nemo iure. Id facere\n\t\t\t\tdistinctio sapiente nisi.\n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\tLorem ipsum dolor, sit amet consectetur adipisicing elit. Velit\n\t\t\t\tobcaecati reiciendis natus et, quis esse, consequuntur sit\n\t\t\t\trepudiandae veniam ad dolor, perferendis fugit nemo iure. Id facere\n\t\t\t\tdistinctio sapiente nisi.\n\t\t\t</p>\n\t\t</div>\n\t</div>\n\t<div class=\"accordion__item\">\n\t\t<div class=\"accordion__label\">\n\t\t\t<p class=\"accordion__title\">Third</p>\n\t\t\t<p class=\"accordion__button\">+</p>\n\t\t</div>\n\t\t<div class=\"accordion__content\">\n\t\t\t<p>\n\t\t\t\tLorem ipsum dolor, sit amet consectetur adipisicing elit. Velit\n\t\t\t\tobcaecati reiciendis natus et, quis esse, consequuntur sit\n\t\t\t\trepudiandae veniam ad dolor, perferendis fugit nemo iure. Id facere\n\t\t\t\tdistinctio sapiente nisi.\n\t\t\t</p>\n\t\t</div>\n\t</div>\n</div>"
+		],
+		"description": "Add basic accordion html code"
+	}
+	"Show More": {
+		"scope": "html",
+		"prefix": "showmore",
+		"body": [
+			"<div class=\"showmore\">\n\t<div class=\"showmore__inner\">\n\t\t<input type=\"checkbox\" id=\"ch\">\n\t\t<h2>Title</h2>\n\t\t<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, tempore ullam sunt amet maxime saepe iusto minus exercitationem consequatur beatae possimus fugit quasi reprehenderit laboriosam nostrum, dolores aspernatur voluptate ea!</p>\n\t\t<div class=\"content\">\n\t\t\t<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, molestias rerum. Doloremque sit, eos magni modi magnam dicta assumenda, officiis veniam reprehenderit repudiandae perspiciatis optio debitis repellendus. Consequatur, quaerat repudiandae!</p>\n\t\t\t<label for=\"ch\">Show less</label>\n\t\t</div>\n\t\t<label for=\"ch\">Read more</label>\n\t</div>\n</div>"
+		],
+		"description": "Add basic show more html code"
+	},
+	"Margin 0 auto": {
+		"scope": "scss",
+		"prefix": "m0a",
+		"body": [
+			"margin: 0 auto;"
+		],
+		"description": "Margin 0 auto"
+	},
+	"Cursor: pointer": {
+		"scope": "scss",
+		"prefix": "cp",
+		"body": [
+			"cursor: pointer;"
+		],
+		"description": "Cursor: pointer"
+	},
+	"JS Click": {
+		"scope": "javascript,typescript",
+		"prefix": "click",
+		"body": [
+			"${1:document}.addEventListener(\"click\", function (e) {\n\t$2\n});"
+		],
+		"description": "document.querySelectorAll"
+	},
+	"document.querySelector": {
+		"scope": "javascript,typescript",
+		"prefix": "dq",
+		"body": [
+			"const ${1:var} = document.querySelector('.$2');"
+		],
+		"description": "document.querySelector"
+	},
+	"document.querySelectorAll": {
+		"scope": "javascript,typescript",
+		"prefix": "dqa",
+		"body": [
+			"const ${1:var} =document.querySelectorAll('.$2');"
+		],
+		"description": "document.querySelectorAll"
+	},
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "log",
+		"body": [
+			"console.log('$1');"
+		],
+		"description": "Log output to console"
+	},
+	"z-index": {
+		"scope": "scss",
+		"prefix": "zi",
+		"body": [
+			"z-index: ${1:1};"
+		],
+		"description": "z-index"
+	},
+	"fbpp": {
+		"prefix": "fbpp",
+		"body": [
+			"flex: 0 0 percent($1, $2);"
+		],
+		"description": "fbpp"
+	},
+	"Padding": {
+		"scope": "scss,css",
+		"prefix": "pp",
+		"body": [
+			"padding: rem(0) rem(0) rem(0) rem(0);"
+		],
+		"description": "padding"
+	},
+	"Padding left and right": {
+		"scope": "scss,css",
+		"prefix": "ppp",
+		"body": [
+			"padding: 0 rem($1);"
+		],
+		"description": "Padding left and right"
+	},
+	"Padding top": {
+		"scope": "scss,css",
+		"prefix": "ppt",
+		"body": [
+			"padding-top: rem($1);"
+		],
+		"description": "padding top"
+	},
+	"Padding bottom": {
+		"scope": "scss,css",
+		"prefix": "ppb",
+		"body": [
+			"padding-bottom: rem($1);"
+		],
+		"description": "padding bottom"
+	},
+	"Padding left": {
+		"scope": "scss,css",
+		"prefix": "ppl",
+		"body": [
+			"padding-left: rem($1);"
+		],
+		"description": "padding left"
+	},
+	"Padding right": {
+		"scope": "scss,css",
+		"prefix": "ppr",
+		"body": [
+			"padding-right: rem($1);"
+		],
+		"description": "padding right"
+	},
+	"Margin": {
+		"scope": "scss,css",
+		"prefix": "mm",
+		"body": [
+			"margin: rem(0) rem(0) rem(0) rem(0);"
+		],
+		"description": "margin"
+	},
+	"Margin to right": {
+		"scope": "scss,css",
+		"prefix": "mr",
+		"body": [
+			"margin: 0 0 0 auto;"
+		],
+		"description": "margin"
+	},
+	"Margin left and right": {
+		"scope": "scss,css",
+		"prefix": "mmm",
+		"body": [
+			"margin: 0px rem($1);"
+		],
+		"description": "margin left and right"
+	},
+	"Margin top": {
+		"scope": "scss,css",
+		"prefix": "mmt",
+		"body": [
+			"margin-top: rem($1);"
+		],
+		"description": "margin top"
+	},
+	"Margin bottom": {
+		"scope": "scss,css",
+		"prefix": "mmb",
+		"body": [
+			"margin-bottom: rem($1);"
+		],
+		"description": "margin bottom"
+	},
+	"Margin left": {
+		"scope": "scss,css",
+		"prefix": "mml",
+		"body": [
+			"margin-left: rem($1);"
+		],
+		"description": "margin left"
+	},
+	"Margin right": {
+		"scope": "scss,css",
+		"prefix": "mmr",
+		"body": [
+			"margin-right: rem($1);"
+		],
+		"description": "margin right"
+	},
+	"Margin 0 auto": {
+		"scope": "scss,css",
+		"prefix": "mu",
+		"body": [
+			"margin: 0 auto;"
+		],
+		"description": "margin center"
+	},
+	"mc": {
+		"prefix": "mc",
+		"body": [
+			"margin:auto;"
+		],
+		"description": "margin center"
+	},
+	"mwn": {
+		"prefix": "mwn",
+		"body": [
+			"max-width: none;"
+		],
+		"description": "max-width none"
+	},
+	"ps": {
+		"prefix": "ps",
+		"body": [
+			"position: absolute;width: 100%;height: 100%;top: 0;left: 0;"
+		],
+		"description": "position absolute"
+	},
+	"art": {
+		"prefix": "art",
+		"body": [
+			"width: 0;height: 0;border-left: 50px solid transparent;border-right: 50px solid transparent;border-bottom: 100px solid red;"
+		],
+		"description": "art"
+	},
+	"arb": {
+		"prefix": "arb",
+		"body": [
+			"width: 0;height: 0;border-left: 50px solid transparent;border-right: 50px solid transparent;border-top: 100px solid red;"
+		],
+		"description": "arb"
+	},
+	"arl": {
+		"prefix": "arl",
+		"body": [
+			"width: 0;height: 0;border-top: 50px solid transparent;border-right: 100px solid red;border-bottom: 50px solid transparent;"
+		],
+		"description": "arl"
+	},
+	"arr": {
+		"prefix": "arr",
+		"body": [
+			"width: 0;height: 0;border-top: 50px solid transparent;border-left: 100px solid red;border-bottom: 50px solid transparent;"
+		],
+		"description": "arr"
+	},
+	"drt": {
+		"prefix": "drt",
+		"body": [
+			"direction: rtl;"
+		],
+		"description": "drt"
+	},
+	"br5": {
+		"scope": "css,scss",
+		"prefix": "br5",
+		"body": [
+			"border-radius: 50%;"
+		],
+		"description": "br5"
+	},
+	"bs": {
+		"prefix": "bs",
+		"body": [
+			"box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);"
+		],
+		"description": "bs"
+	},
+	"c0": {
+		"prefix": "c0",
+		"body": [
+			"color:#000;"
+		],
+		"description": "c0"
+	},
+	"bdr": {
+		"prefix": "bdr",
+		"body": [
+			"border-radius: "
+		],
+		"description": "bdr"
+	},
+	"wa": {
+		"prefix": "wa",
+		"body": [
+			"width: auto;"
+		],
+		"description": "wa"
+	},
+	"ha": {
+		"prefix": "ha",
+		"body": [
+			"height: auto;"
+		],
+		"description": "ha"
+	},
+	"color": {
+		"prefix": "c",
+		"body": [
+			"color: #${1:fff};"
+		],
+		"description": "color"
+	},
+	"c1": {
+		"prefix": "c1",
+		"body": [
+			"color: #fff;"
+		],
+		"description": "c1"
+	},
+	"an": {
+		"prefix": "an",
+		"body": [
+			"animation:${1:name} 1s infinite linear;"
+		],
+		"description": "aa"
+	},
+	"aa": {
+		"prefix": "aa",
+		"body": [
+			"transition: all 0.${1:3}s ease 0s;$2"
+		],
+		"description": "aa"
+	},
+	"ar": {
+		"prefix": "ar",
+		"body": [
+			"transform: rotate(-${1:180}deg);"
+		],
+		"description": "ar"
+	},
+	"as": {
+		"prefix": "as",
+		"body": [
+			"transform: scale(${1:1});"
+		],
+		"description": "as"
+	},
+	"at": {
+		"prefix": "at",
+		"body": [
+			"transform: translate(${1:0}px,${2:0}px);$3"
+		],
+		"description": "at"
+	},
+	"att": {
+		"prefix": "att",
+		"body": [
+			"transform: translate(0px,0px) rotate(0deg) scale(1) skew(0,0);"
+		],
+		"description": "at"
+	},
+	"ex": {
+		"prefix": "ex",
+		"body": [
+			"@extend %${1:};"
+		],
+		"description": "ex"
+	},
+	"ic": {
+		"prefix": "ic",
+		"body": [
+			"@extend %ic;"
+		],
+		"description": "ic"
+	},
+	"is": {
+		"prefix": "is",
+		"body": [
+			"img{max-width: 100%;}"
+		],
+		"description": "is"
+	},
+	"lc": {
+		"prefix": "lc",
+		"body": [
+			"&:last-child{\n\t$0\n}"
+		],
+		"description": "lc"
+	},
+	"fc": {
+		"prefix": "fc",
+		"body": [
+			"&:first-child{\n\t$0\n}"
+		],
+		"description": "fc"
+	},
+	"nc": {
+		"prefix": "nc",
+		"body": [
+			"&:nth-child($0){}"
+		],
+		"description": "nc"
+	},
+	"BeforeAfter": {
+		"prefix": "ba",
+		"body": [
+			"&::before,&::after{\n\tcontent:'';\n\t$0\n}"
+		],
+		"description": "ba"
+	},
+	"After": {
+		"prefix": "a",
+		"body": [
+			"&::after{\n\tcontent:'';\n\t$0\n}"
+		],
+		"description": "after"
+	},
+	"Before": {
+		"prefix": "b",
+		"body": [
+			"&::before{\n\tcontent:'';\n\t$0\n}"
+		],
+		"description": "before"
+	},
+	"hv": {
+		"prefix": "hv",
+		"body": [
+			"&:hover{\n\t$0\n}"
+		],
+		"description": "hv"
+	},
+	"hhv": {
+		"prefix": "hhv",
+		"body": [
+			"@media (any-hover: hover){\n\t&:hover{\n\t\t$0\n\t}\n}"
+		],
+		"description": "hhv"
+	},
+	"acc": {
+		"prefix": "acc",
+		"body": [
+			"&:active{\n\t$0\n}"
+		],
+		"description": "acc"
+	},
+	"ac_css": {
+		"scope": "scss,css",
+		"prefix": "ac",
+		"body": [
+			"&._active{\n\t$0\n}"
+		],
+		"description": "ac_css"
+	},
+	"ac_html": {
+		"scope": "html,kit,javascript",
+		"prefix": "ac",
+		"body": [
+			"_active"
+		],
+		"description": "ac_html"
+	},
+	"bg+": {
+		"prefix": "bg+",
+		"body": [
+			"background: url('@img$0') 0 0 no-repeat;"
+		],
+		"description": "bg+"
+	},
+	"md1": {
+		"prefix": "md1",
+		"body": [
+			"@media (max-width:\\$pc){\n\t $0 \n}"
+		],
+		"description": "md1"
+	},
+	"mmd1": {
+		"prefix": "mmd1",
+		"body": [
+			"@media (min-width:\\$pc){\n\t $0 \n}"
+		],
+		"description": "md1"
+	},
+	"md2": {
+		"prefix": "md2",
+		"body": [
+			"@media (max-width:\\$tablet){\n\t$0\n}"
+		],
+		"description": "md2"
+	},
+	"mmd2": {
+		"prefix": "mmd2",
+		"body": [
+			"@media (min-width:\\$tablet){\n\t $0 \n}"
+		],
+		"description": "md1"
+	},
+	"md3": {
+		"prefix": "md3",
+		"body": [
+			"@media (max-width:\\$mobile){\n\t $0 \n}"
+		],
+		"description": "md3"
+	},
+	"mmd3": {
+		"prefix": "mmd3",
+		"body": [
+			"@media (min-width:\\$mobile){\n\t $0 \n}"
+		],
+		"description": "md1"
+	},
+	"md4": {
+		"prefix": "md4",
+		"body": [
+			"@media (max-width:\\$mobileSmall){\n\t $0 \n}"
+		],
+		"description": "md4"
+	},
+	"mmd4": {
+		"prefix": "mmd4",
+		"body": [
+			"@media (min-width:\\$mobileSmall){\n\t $0 \n}"
+		],
+		"description": "md1"
+	},
+	"fb": {
+		"prefix": "fb",
+		"body": [
+			"display: flex;"
+		],
+		"description": "fb"
+	},
+	"fbi": {
+		"prefix": "fbi",
+		"body": [
+			"display: inline-flex;"
+		],
+		"description": "fbi"
+	},
+	"fbo": {
+		"prefix": "fbo",
+		"body": [
+			"order:${1:1};"
+		],
+		"description": "fbo"
+	},
+	"jcs": {
+		"prefix": "jcs",
+		"body": [
+			"justify-content:${1:space-between};"
+		],
+		"description": "jcs"
+	},
+	"aic": {
+		"prefix": "aic",
+		"body": [
+			"align-items:${1:center};"
+		],
+		"description": "aic"
+	},
+	"fww": {
+		"prefix": "fww",
+		"body": [
+			"flex-wrap: wrap;"
+		],
+		"description": "fww"
+	},
+	"fdc": {
+		"prefix": "fdc",
+		"body": [
+			"flex-direction: column;"
+		],
+		"description": "fdc"
+	},
+	"fbg": {
+		"prefix": "fbg",
+		"body": [
+			"flex: 1 1 100%;"
+		],
+		"description": "fbg"
+	},
+	"fbga": {
+		"prefix": "fbga",
+		"body": [
+			"flex: 1 1 auto;"
+		],
+		"description": "fbga"
+	},
+	"fbgh": {
+		"prefix": "fbgh",
+		"body": [
+			"flex: 0 1 50%;"
+		],
+		"description": "fbgh"
+	},
+	"fbgt": {
+		"prefix": "fbgt",
+		"body": [
+			"flex: 0 1 33.333%;"
+		],
+		"description": "fbgt"
+	},
+	"fbgq": {
+		"prefix": "fbgq",
+		"body": [
+			"flex: 0 1 25%;"
+		],
+		"description": "fbgq"
+	},
+	"fbp": {
+		"prefix": "fbp",
+		"body": [
+			"flex: 0 0 $1px;"
+		],
+		"description": "fbp"
+	},
+	"fbc": {
+		"prefix": "fbc",
+		"body": [
+			"justify-content:center;align-items: center;"
+		],
+		"description": "fbc"
+	},
+	"lcm": {
+		"prefix": "lcm",
+		"body": [
+			"&:last-child{margin:0px 0px 0px 0px;}"
+		],
+		"description": "lcm"
+	},
+	"hvu": {
+		"prefix": "hvu",
+		"body": [
+			"&:hover{text-decoration: underline;}"
+		],
+		"description": "hvu"
+	},
+	"hvn": {
+		"prefix": "hvn",
+		"body": [
+			"&:hover{text-decoration: none;}"
+		],
+		"description": "hvn"
+	},
+	"bt": {
+		"prefix": "bt",
+		"body": [
+			"body.touch &{\n\t$1\n}"
+		],
+		"description": "bt"
+	},
+	"kf": {
+		"prefix": "kf",
+		"body": "@keyframes ${1:name} {\n\t0% {\n\t\t$2\n\t}\n\t100% {\n\t\t$3\n\t}\n}",
+		"description": "kf"
+	},
+	"qa": {
+		"scope": "html,kit",
+		"prefix": "qa",
+		"body": "<div class=\"quantity\"><div class=\"quantity__button quantity__button_plus _icon-plus\"></div><div class=\"quantity__input\"><input autocomplete=\"off\" type=\"text\" name=\"form[]\" value=\"1\"></div><div class=\"quantity__button quantity__button_minus _icon-minus\"></div></div>",
+		"description": "qa"
+	},
+	"Textarea": {
+		"scope": "html,kit",
+		"prefix": "txta",
+		"body": "<textarea autocomplete=\"off\" name=\"form[]\" placeholder=\"$1\" data-error=\"Ошибка\" class=\"input\"></textarea>",
+		"description": "txta"
+	},
+	"Select": {
+		"prefix": "sel",
+		"body": "<select name=\"form[]\" data-class-modif=\"form\">\n\t<option value=\"1\" selected>Пункт №1</option>\n\t<option value=\"2\">Пункт №2</option>\n\t<option value=\"3\">Пункт №3</option>\n\t<option value=\"4\">Пункт №4</option>\n</select>",
+		"description": "sel"
+	},
+	"Radio buttons": {
+		"prefix": "opt",
+		"body": "<div class=\"options\">\n\t<div class=\"options__item\">\n\t\t<input id=\"o_1\" class=\"options__input\" checked type=\"radio\" value=\"1\" name=\"option\">\n\t\t<label for=\"o_1\" class=\"options__label\"><span class=\"options__text\">${1:Текст}</span></label>\n\t</div>\n\t<div class=\"options__item\">\n\t\t<input id=\"o_2\" class=\"options__input\" type=\"radio\" value=\"2\" name=\"option\">\n\t\t<label for=\"o_2\" class=\"options__label\"><span class=\"options__text\">${2:Текст}</span></label>\n\t</div>\n</div>",
+		"description": ""
+	},
+	"CheckBox": {
+		"prefix": "chk",
+		"body": "<div class=\"checkbox\">\n\t<input id=\"c_1\" data-error=\"Ошибка\" class=\"checkbox__input\" type=\"checkbox\" value=\"1\" name=\"form[]\">\n\t<label for=\"c_1\" class=\"checkbox__label\"><span class=\"checkbox__text\">${1:Текст}</span></label>\n</div>",
+		"description": ""
+	},
+	"Button": {
+		"prefix": "btn",
+		"body": "<button type=\"submit\" class=\"button\">${1:Отправить}</button>",
+		"description": ""
+	},
+	"Button Item": {
+		"prefix": "bbtn",
+		"body": "<button type=\"button\" class=\"${1:class}\">${2:Текст}</button>",
+		"description": ""
+	},
+	"Button Link": {
+		"prefix": "abtn",
+		"body": "<a href=\"\" class=\"button\">${1:Текст}</a>",
+		"description": ""
+	},
+	"str": {
+		"prefix": "str",
+		"body": "<div class=\"${1:block}\">\n\t<div class='${1:block}__container'>\n\t\t<div class=\"${1:block}__title\"></div>\n\t\t<div class=\"${1:block}__row\">\n\t\t\t<div class=\"${1:block}__column\">\n\t\t\t\t$2\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>",
+		"description": "str"
+	},
+	"menu": {
+		"prefix": "menu",
+		"body": "<div class=\"header__menu menu\">\n\t<button type=\"button\" class=\"menu__icon icon-menu\"><span></span></button>\n\t<nav class=\"menu__body\">\n\t\t<ul class=\"menu__list\">\n\t\t\t<li class=\"menu__item\"><a href=\"\" class=\"menu__link\"></a></li>\n\t\t</ul>\n\t</nav>\n</div>",
+		"description": "menu"
+	},
+	"logo": {
+		"prefix": "logo",
+		"body": "<a href=\"\" class=\"header__logo\"><img data-src=\"../img/logo.svg\" alt=\"\"></a>",
+		"description": "logo"
+	},
+	"Image": {
+		"prefix": "img",
+		"body": "<img src=\"@img$0\" alt=\"\">",
+		"description": "img"
+	},
+	"Image Lazy": {
+		"prefix": "imgl",
+		"body": "<img data-src=\"@img$0\" alt=\"\">",
+		"description": "img lazy load"
+	},
+	/*
+	"Image": {
+		"prefix": "img",
+		"body": "<img src=\"img$0\" alt=\"\">",
+		"description": "img"
+	},
+	*/
+	"sp": {
+		"prefix": "sp",
+		"body": "//========================================================================================================================================================\n$1",
+		"description": "sp"
+	},
+	"nowrap": {
+		"prefix": "wsnw",
+		"body": "white-space: nowrap;",
+		"description": "nowrap"
+	},
+	"vc1": {
+		"prefix": "vc1",
+		"body": "color: #794f45;",
+		"description": "vc1"
+	},
+	"vc2": {
+		"prefix": "vc2",
+		"body": "color: #77608d;",
+		"description": "vc2"
+	},
+	"vc3": {
+		"prefix": "vc3",
+		"body": "color: #7A956B;",
+		"description": "vc3"
+	},
+	"bc1": {
+		"prefix": "bc1",
+		"body": "background-color: #794f45;",
+		"description": "bc1"
+	},
+	"bc2": {
+		"prefix": "bc2",
+		"body": "background-color: #77608d;",
+		"description": "bc2"
+	},
+	"bc3": {
+		"prefix": "bc3",
+		"body": "background-color: #7A956B;",
+		"description": "bc3"
+	},
+}
