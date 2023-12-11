@@ -116,6 +116,34 @@ export function popup() {
 		})
 	})
 }
+
+// Phone mask
+export function phoneMask() {
+	const mask = (selector, pattern) => {
+		function createMask() {
+			let matrix = pattern,
+				i = 0,
+				def = matrix.replace(/\D/g, ''),
+				val = this.value.replace(/\D/g, '')
+			if (def.length >= val.length) val = def
+			this.value = matrix.replace(/./g, function (a) {
+				return /[_\d]/.test(a) && i < val.length
+					? val.charAt(i++)
+					: i >= val.length
+					? ''
+					: a
+			})
+		}
+		let inputs = document.querySelectorAll(selector)
+		inputs.forEach(input => {
+			input.addEventListener('input', createMask)
+			input.addEventListener('focus', createMask)
+			input.addEventListener('blur', createMask)
+		})
+	}
+	// First argument - input class name, second argument - mask
+	mask('.phone-mask', '+380 (__) ___  __ __')
+}
 // Tabs
 export function tabs() {
 	const tabsButtons = document.querySelectorAll('.tabs__button')

@@ -12,6 +12,11 @@ import * as componentsFunctions from './files/functions.js'
 // Accordions
 // componentsFunctions.accordions();
 
+// Phone mask
+// componentsFunctions.phoneMask();
+
 // Slider swiper
 // import "./files/slider.js";
 
+// Custom scripts
+// import "./files/script.js"

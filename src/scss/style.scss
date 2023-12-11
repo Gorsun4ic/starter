@@ -35,6 +35,10 @@ $mobileSmall: em(479.98); // Small size phone
 // 2 = breakpoints
 $responsiveType: 1;
 
+html {
+	scroll-behavior: smooth;
+}
+
 .wrapper {
 	min-height: 100%;
 	display: flex;
