@@ -73,15 +73,48 @@ export function menuClose() {
 
 // Popup
 export function popup() {
-	const popup = document.querySelector('.popup');
-	const popupOpenButton = document.getAttribute('data-popup');
-	if (popupOpenButton) {
-		console.log(popupOpenButton);
-		popupOpenButton.addEventListener('click', function (e) {
-			document.body.classList.toggle('_lock');
-			popup.classList.add('_active');
-		})
+	const popupButton = document.querySelectorAll('[data-popup]')
+	const popupCloseButton = document.querySelectorAll('[data-close]')
+	// Call this function to open popup
+	function popupOpen(popup) {
+		document.body.classList.add('_lock') // Activate lock styles
+		document.body.classList.add('popup-show')
+		popup.classList.add('popup-show')
+		popup.setAttribute('data-popup', '')
+		bodyLock() // Activate lock script
 	}
+	// Call this function to close popup
+	function popupClose(popup) {
+		document.body.classList.remove('popup-show')
+		document.body.classList.remove('_lock')
+		popup.classList.remove('popup-show')
+		bodyUnlock()
+	}
+	popupButton.forEach(function (element) {
+		const popup = document.getElementById(element.getAttribute('data-popup'))
+		element.addEventListener('click', function (e) {
+			popupOpen(popup)
+			if (popup.classList.contains('popup-show')) {
+				document.addEventListener('keydown', function (event) {
+					// If user will press escape button or q button popup will close
+					if (event.key === 'Escape' || event.key === 'q') {
+						popupClose(popup)
+					}
+				})
+				document.addEventListener('click', function (e) {
+					// If the user is pressed on some area except for Popup (body), popup will close
+					if (e.target === document.body) {
+						popupClose(popup)
+					}
+				})
+				popupCloseButton.forEach(function (element) {
+					element.addEventListener('click', function (e) {
+						popupClose(popup)
+					})
+				})
+			}
+		})
+	})
 }
 // Tabs
 export function tabs() {

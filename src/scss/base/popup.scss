@@ -13,6 +13,7 @@ body::after {
 }
 body.popup-show::after {
 	opacity: 1;
+	pointer-events: auto;
 }
 .popup {
 	position: fixed;

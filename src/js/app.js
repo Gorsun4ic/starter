@@ -1,7 +1,10 @@
 import * as componentsFunctions from './files/functions.js'
 
 // Burger
-componentsFunctions.burger();
+// componentsFunctions.burger();
+
+// Popup
+// componentsFunctions.popup();
 
 // Tabs
 // componentsFunctions.tabs();
@@ -12,5 +15,3 @@ componentsFunctions.burger();
 // Slider swiper
 // import "./files/slider.js";
 
-// Popup
-import "./files/popup.js";
